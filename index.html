@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            background-color: gainsboro;
+            display: grid;
+            justify-content: center;
+        }
+        
+        
+        .container{
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            grid-template-rows: 3fr 1fr 2fr 2fr;
+            height: 100vh;
+            width: 50vw;
+            gap:50px;
+            
+            
+
+        }
+        .box1{
+            grid-row: span 2;
+            background-color: white;
+            box-shadow: 10px 10px 50px 0px rgba(0,0,0.75);
+            
+
+        }
+        .box2{
+            background-color: white;
+            box-shadow: 10px 10px 50px 0px rgba(0,0,0.75);
+            
+            
+            
+
+        }
+        .box3{
+            background-color: white;
+            grid-row: span 2;
+            gap: 3px;
+            box-shadow: 10px 10px 50px 0px rgba(0,0,0.75);
+            
+
+        }
+        .box4{
+            background-color: white;
+            grid-row: span 2;
+            box-shadow: 10px 10px 50px 0px rgba(0,0,0.75);
+            
+
+        }
+        .box5{
+            background-color: white;
+           
+            box-shadow: 10px 10px 50px 0px rgba(0,0,0.75);
+           
+
+        }
+        .buttonbox1{
+            
+            display: flex;
+            justify-content: space-between;
+
+        }
+        .paddinga{
+            margin-top: 0;
+            padding-left: 150px;
+            font-size: 2em;
+        }
+        .paddingp{
+            padding-left: 150px;
+            font-size: 1.5em;
+
+        }
+        .r1{
+            font-size: 2em;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">
+            <img src="./box1 image.jpg" alt="" style="height: 50%; width: 100%;">
+            <h1 style="font-size: 80px; margin-left: 20px;"> The Heading</h1>
+            <h3 style="font-size: 50px; margin-left: 20px;">Title description, April 7, 2014</h3>
+            <p style="font-size: 30px; margin-left: 20px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti laboriosam rem veritatis exercitationem minus esse dignissimos voluptate, accusantium, eveniet perspiciatis ipsum ratione sint aspernatur voluptatem.</p>
+            <div class="buttonbox1">
+                <button style="font-size: 2em;margin-left: 20px;">Read More
+                </button>
+                <div style="font-size: 2em;margin-right: 20px;">
+                    Comments
+                    <span style="background-color: black;color: white;">
+                         0
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="box2">
+            <img src="./box2 image.jpg" alt="" style="height=50%; width:100%;">
+            <h1 style="font-size:70px; margin-left: 20px;">My Name</h1>
+            <p style="font-size: 30px;">Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a interest of lorem ipsum and mauris neque quam blog. I want to share my world with you.</p>
+        </div>
+        <div class="box3">
+            <div><h1 style="font-size:3em; margin-left: 20px;">Popular Posts</h1></div>
+            <th style="padding-left: 3px;">
+                <li style="border: 1px solid; margin-top: 50px;"><img src="./popular post 1.jpg" alt="" style="width: 90px; float: left; margin-top: 10px;margin-left: 10px;"><P class="paddinga">Lorem</P><P class="paddingp">Sed mattis nunc</P></li>
+                <li style="border: 1px solid;" ><img src="./popular post 2.jpg" alt="" style="width: 90px; float: left; margin-top: 10px;margin-left: 10px;"><P class="paddinga">Ipsum</P><P class="paddingp">Praes tinci sed</P></li>
+                <li style="border: 1px solid;" ><img src="./popular post 3.jpg" alt="" style="width: 90px; float: left; margin-top: 10px;margin-left: 10px;"><P class="paddinga">Dorum</P><P class="paddingp">Ultricies congue</P></li>
+                <li style="border: 1px solid;" ><img src="./popular post 4.jpg" alt="" style="width: 90px; float: left; margin-top: 10px;margin-left: 10px;"><P class="paddinga">Mingsum</P><P class="paddingp">Lorem ipsum dipsum</P></li>
+            </th>           
+            
+
+        </div>
+        <div class="box4">
+            <img src="./box4 image.jpg" alt="" style="height:50%"; width="100%">
+            <h1 style="font-size: 80px; margin-left: 20px;">BLOG ENTRY</h1>
+            <h3 style="font-size: 50px; margin: 0; margin-left: 20px;">Title description, April 2, 2014</h3>
+            <p style="font-size: 30px; margin-left: 20px;">Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+            <div class="buttonbox1">
+                <button style="font-size: 2em;margin-left: 20px;">Read More
+                </button>
+                <div style="font-size: 2em;margin-right: 20px;">
+                    Comments
+                    <span style="background-color: black;color: white;">
+                         2
+                    </span>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="box5">
+            <h1 style="margin-left: 20px; margin: 0;font-size: 3em;padding-left: 20px;padding-top: 20px; padding-bottom: 20px; background-color: gainsboro;">Tags</h1>
+            <Button class="r1">Travel</Button>
+            <Button class="r1">New York</Button>
+            <Button class="r1">London</Button>
+            <Button class="r1">IKEA</Button>
+            <Button class="r1">NORWAY</Button>
+            <Button class="r1">DIY</Button>
+            <Button class="r1">Ideas</Button>
+            <Button class="r1">Baby</Button>
+            <Button class="r1">Family</Button>
+            <Button class="r1">News</Button>
+            <Button class="r1">Clothing</Button>
+            <Button class="r1">Shopping</Button>
+            <Button class="r1">Sports</Button>
+            <Button class="r1">Games</Button>
+
+
+        </div>
+    </div>
+    <div style="background-color: gray;box-shadow: 10px 10px 50px 0px rgba(0,0,0.75); width: 100%;">
+       <p style="font-size: 40px; color: rgb(16, 2, 2); padding: 20px;">Powered by arpit <a style="color: brown;" href=""> Coder Boy</a></p>
+
+
+
+    </div>
+</body>
+</html>
